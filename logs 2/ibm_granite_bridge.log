@@ -1,0 +1,7 @@
+2025-07-21 14:02:07,262 - IBMGraniteBridge - INFO - Created default config at /Volumes/IBMGranite/bridge/../config/bridge_config.json
+2025-07-21 14:02:12,039 - IBMGraniteBridge - INFO - Generated system fingerprint: ad14efae...
+2025-07-21 14:02:12,040 - IBMGraniteBridge - INFO - IBM Granite Bridge initialized with session 8f820823c373
+2025-07-21 14:02:12,072 - IBMGraniteBridge - INFO - Local server thread started on port 5151
+2025-07-21 14:02:12,271 - IBMGraniteBridge - INFO - HTTP server started on port 5151 (SSL certificates not found)
+2025-07-21 14:10:03,411 - IBMGraniteBridge - INFO - Shutting down IBM Granite Bridge
+2025-07-21 14:11:09,457 - IBMGraniteBridge - INFO - IBM Granite Bridge shutdown complete
