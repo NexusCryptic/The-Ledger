@@ -1,0 +1,10 @@
+{
+  "ollama_url": "http://localhost:11434",
+  "ibm_api_key": "",
+  "ibm_api_url": "https://us-south.ml.cloud.ibm.com/ml/v1/",
+  "local_port": 5151,
+  "verification_timeout": 300,
+  "ping_interval": 60,
+  "log_level": "INFO",
+  "trusted_devices": []
+}
