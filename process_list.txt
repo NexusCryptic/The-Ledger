@@ -1,0 +1,499 @@
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+nexus            43639  36.7  4.9 1459987448 410980   ??  S     2:51PM   6:33.34 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1274 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=27047362024 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=166
+_windowserver      152  32.7  0.9  7252372  76888   ??  Ss   31Dec22  71:11.57 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+nexus              667  26.5  2.9  5446776 242368   ??  S     7:29AM   1:24.17 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+nexus            18500  12.1  3.2 72439316 265232   ??  S     9:58AM  34:29.05 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+nexus            18514  10.0  0.8 38805572  69464   ??  R     9:58AM  21:58.23 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=23
+nexus            45958   7.6  0.0  4312800   2240 s003  R     3:15PM   0:00.05 q _ inline-shell-completion --buffer ps aux > ~/Desktop/process_list.txt
+root             45956   4.7  0.0  4282656   2648   ??  Rs    3:15PM   0:00.03 /usr/bin/kmutil load -b com.apple.fsplaceholder
+nexus              742   3.5  0.2  5045444  19888   ??  S     7:29AM  44:44.17 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+nexus            44000   3.4  0.0  4297548   2284 s003  Ss    2:57PM   0:01.35 /bin/zsh --login
+root               139   3.1  0.1  4371056  10476   ??  Ss   31Dec22   1:09.31 /usr/sbin/bluetoothd
+nexus              658   2.8  0.2  4383368  12860   ??  S     7:29AM  27:06.92 /System/Library/CoreServices/sharedfilelistd
+nexus              708   2.7  0.1  4372904  10376   ??  R     7:29AM   0:10.46 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+nexus            43993   2.4  0.3  5449452  26108 s002  S+    2:57PM   0:13.63 zsh (qterm)
+nexus              720   2.2  0.2  4376228  19524   ??  S     7:29AM   0:23.25 /usr/libexec/sharingd
+nexus              768   1.6  0.1  5445328   5980 s004  S+    7:29AM   4:18.99 zsh (qterm)
+root               118   1.4  0.1  4364912   7716   ??  Ss   31Dec22  16:56.45 /System/Library/CoreServices/launchservicesd
+nexus              445   1.3  0.0  4317268   3804   ??  S     7:23AM   9:25.58 /usr/sbin/distnoted agent
+root                95   1.3  0.3  4458616  22204   ??  Ss   31Dec22   3:23.52 /usr/libexec/logd
+nexus             2076   1.2  0.4  5771316  37564   ??  S     7:30AM   1:59.86 /Applications/Amazon Q.app/Contents/MacOS/q_desktop --is-startup --no-dashboard
+nexus            17159   1.2  0.1  5411508   4488 s000  S+    9:48AM   2:57.35 zsh (qterm)
+nexus              695   1.0  0.1  4339748   6268   ??  S     7:29AM   0:00.74 /usr/libexec/pboard
+nexus             7787   0.9  0.3 10814852  28788   ??  S     8:16AM   1:49.88 /Applications/Tailscale.app/Contents/MacOS/Tailscale
+nexus              640   0.8  0.1  4364536  10632   ??  S     7:29AM   0:15.91 /usr/libexec/UserEventAgent (Aqua)
+nexus            45957   0.8  0.0  4297404    924 s003  S     3:15PM   0:00.00 /bin/zsh --login
+nexus             5258   0.8  0.8 1460103292  64916   ??  S     7:54AM   5:20.74 /Applications/GitHub Desktop.app/Contents/MacOS/GitHub Desktop
+root               181   0.8  0.1  4336272   6868   ??  Ss   31Dec22   7:11.60 /usr/libexec/runningboardd
+root                 1   0.7  0.1  4340284  12468   ??  Ss   31Dec22   3:08.13 /sbin/launchd
+nexus             2058   0.7  0.2  5026992  13600   ??  S     7:30AM   0:08.61 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+nexus              677   0.6  0.4  5110576  29732   ??  S     7:29AM   0:49.12 /System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter
+nexus              683   0.6  0.2  4381568  17124   ??  S     7:29AM   0:15.43 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+nexus            45955   0.6  0.0  4362392   3796   ??  S     3:15PM   0:00.06 /usr/bin/hdiutil attach /Users/nexus/Desktop/Aether/AetherCore.sparsebundle -nobrowse
+root               116   0.6  0.1  4375544   7612   ??  Ss   31Dec22   1:33.74 /usr/libexec/opendirectoryd
+nexus              676   0.6  0.3  5019264  24692   ??  S     7:29AM   7:18.85 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+_gamecontrollerd  1703   0.5  0.1  4362780   6316   ??  Ss    7:29AM   3:10.32 /usr/libexec/gamecontrollerd
+nexus              680   0.4  2.0  7033524 166212   ??  S     7:29AM  20:24.24 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+nexus            18515   0.4  0.5 38265528  42576   ??  S     9:58AM   2:18.86 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=23
+root               346   0.3  2.3  7453744 189220   ??  Ss   31Dec22  52:15.66 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+nexus              151   0.3  0.4  4613356  29880   ??  Ss   31Dec22   7:46.07 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+_mdnsresponder     236   0.3  0.1  4363860   5704   ??  Ss   31Dec22   0:56.55 /usr/sbin/mDNSResponder
+root               105   0.3  1.9  6331164 155752   ??  Ss   31Dec22  17:37.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root               140   0.3  0.0  4330472   1968   ??  Ss   31Dec22   0:46.54 /usr/sbin/notifyd
+root               148   0.3  0.0  4331324   3072   ??  Ss   31Dec22   0:47.90 /usr/sbin/cfprefsd daemon
+nexus              696   0.2  0.1  4362588   7808   ??  S     7:29AM   0:03.10 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+nexus              692   0.2  0.2  4369388  15136   ??  S     7:29AM   0:26.51 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent
+nexus             1967   0.2  0.1  4339936   6868   ??  S     7:29AM   0:03.77 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+_appleevents       371   0.2  0.1  4364416   5520   ??  Ss   31Dec22   8:24.35 /System/Library/CoreServices/appleeventsd --server
+root               375   0.2  0.1  4362396   6536   ??  S    31Dec22   0:02.10 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+nexus            45927   0.2  0.8 1461416152  67260   ??  R     3:15PM   0:00.51 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --extension-process --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1309 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=28465753055 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=163
+nexus            14987   0.1  1.0 10976992  80316   ??  S     9:24AM   2:48.89 /Applications/Safari.app/Contents/MacOS/Safari
+nexus             2396   0.1  0.2  4869576  12788   ??  Ss    7:31AM   0:03.32 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+nexus            43591   0.1  0.3 1461435768  25908   ??  R     2:50PM   0:02.69 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --extension-process --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1273 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=27000267414 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=190
+root               357   0.1  0.2  4368536  17824   ??  Rs   31Dec22   0:19.59 /usr/libexec/PerfPowerServices
+nexus              927   0.1  0.1  4382456  10376   ??  S     7:29AM   0:06.63 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+nexus             2009   0.1  0.4  4546160  29452   ??  S     7:29AM   6:56.48 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariLaunchAgent
+root                80   0.1  0.1  4341320   4220   ??  Ss   31Dec22   1:54.61 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root             16770   0.0  0.1  4366036   5456   ??  Ss    9:44AM   0:00.28 /usr/libexec/dprivacyd
+root             16498   0.0  0.0  4361732   3236   ??  Ss    9:40AM   0:00.76 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/CAReportingService.xpc/Contents/MacOS/CAReportingService
+nexus            16430   0.0  0.0  4330124   1204   ??  Ss    9:40AM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+nexus            16236   0.0  0.2  4406016  19376   ??  S     9:39AM   0:33.49 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/PasswordBreachAgent
+nexus            16212   0.0  0.2  4565040  18516   ??  Ss    9:39AM   0:00.62 /Library/Apple/System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+nexus            16181   0.0  0.3  5217952  23948   ??  Ss    9:38AM   0:01.34 /Library/Apple/System/Library/StagedFrameworks/Safari/AuthenticationServices.framework/Versions/A/XPCServices/com.apple.AuthenticationServices.Helper.xpc/Contents/MacOS/com.apple.AuthenticationServices.Helper
+root             16057   0.0  0.0  4314772   1008   ??  Ss    9:37AM   0:00.04 /usr/libexec/online-authd
+root             16014   0.0  0.0  4361864   2416   ??  Ss    9:36AM   0:00.41 /System/Library/CoreServices/osanalyticshelper server-init
+nexus            15230   0.0  0.0  4330028   2544   ??  S     9:27AM   0:00.15 /usr/libexec/USBAgent
+nexus            15043   0.0  0.2  4395792  17812   ??  S     9:24AM   0:00.34 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariCloudHistoryPushAgent
+nexus            15031   0.0  0.2  8956092  16752   ??  Ss    9:24AM   0:00.80 /Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU
+nexus            15028   0.0  0.1  4382624  10016   ??  Ss    9:24AM   0:00.43 /Applications/Shellcut.app/Contents/PlugIns/ShellcutFinderExtension.appex/Contents/MacOS/ShellcutFinderExtension
+nexus            15027   0.0  0.1  4386672   9392   ??  Ss    9:24AM   0:00.97 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+nexus            15026   0.0  0.1  4388008  11324   ??  Ss    9:24AM   0:00.87 /Applications/CloudMounter.app/Contents/PlugIns/CMFinderSync.appex/Contents/MacOS/CMFinderSync
+nexus            15025   0.0  0.2  8928712  18908   ??  S     9:24AM   0:00.57 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/AuthenticationServicesAgent
+nexus            15023   0.0  0.1  4877108   9172   ??  Ss    9:24AM   0:10.02 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus            15021   0.0  0.0  4859092   2268   ??  Ss    9:24AM   0:02.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus            15019   0.0  0.1  4867408   9744   ??  Ss    9:24AM   0:00.64 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+nexus            15018   0.0  0.3  5093576  21932   ??  Ss    9:24AM   0:07.26 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+nexus            15014   0.0  0.1  4468780  12216   ??  S     9:24AM   0:00.41 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/webinspectord
+nexus            15007   0.0  0.7 110711612  56760   ??  Ss    9:24AM   0:02.49 /Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+nexus            15006   0.0  0.1  4389648  12160   ??  S     9:24AM   0:00.34 /System/Library/PrivateFrameworks/Translation.framework/translationd
+nexus            15004   0.0  0.4  5055252  34988   ??  Ss    9:24AM   0:01.08 /Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safari.SandboxBroker
+nexus            14996   0.0  0.0  4335716   2724   ??  Ss    9:24AM   0:00.36 /System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService
+nexus            14995   0.0  0.4  4695632  36068   ??  S     9:24AM   0:01.77 /Library/Apple/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+nexus            14994   0.0  0.3  9991784  25192   ??  Ss    9:24AM   0:09.15 /Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+nexus            14991   0.0  0.3  4597772  23608   ??  S     9:24AM   0:01.11 /Library/Apple/System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History
+nexus            14937   0.0  0.0  4330092   1560   ??  S     9:23AM   0:00.03 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper
+_windowserver    13265   0.0  0.1  4849172   8104   ??  Ss    9:04AM   0:00.43 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+_windowserver    13257   0.0  0.0  4856036   2136   ??  Ss    9:04AM   0:00.57 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus            13013   0.0  0.2  4415664  14068   ??  S     9:01AM   0:01.06 /System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter
+nexus            12999   0.0  0.1  4867568   8260   ??  Ss    9:01AM   0:00.29 /System/Library/Frameworks/FinderSync.framework/Versions/A/XPCServices/IsExtensionEnabled.xpc/Contents/MacOS/IsExtensionEnabled
+nexus            12991   0.0  0.3  6228420  24172   ??  S     9:01AM   0:05.06 /Applications/CloudMounter.app/Contents/MacOS/CloudMounter
+nexus            12980   0.0  0.0  4330044   1480   ??  Ss    9:01AM   0:00.06 /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/XPCServices/MDRemoteServiceSupport.xpc/Contents/MacOS/MDRemoteServiceSupport
+nexus            12978   0.0  0.1  4542692  10416   ??  S     9:00AM   0:01.04 /System/Library/PrivateFrameworks/MobileDevice.framework/Resources/MobileDeviceUpdater.app/Contents/MacOS/MobileDeviceUpdater
+nexus            12448   0.0  0.1  4361904   9168   ??  Ss    8:56AM   0:00.04 /System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices
+nexus            12361   0.0  0.1  4361904   9168   ??  Ss    8:55AM   0:00.12 /System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.xpc/Contents/MacOS/com.apple.SafariServices
+root             12040   0.0  0.1  4362060   5392 s008  S+    8:51AM   0:00.11 sudo purge
+nexus            12020   0.0  0.0  4272056    604 s008  S+    8:51AM   0:00.02 /bin/bash /Users/nexus/GAIA_ROOT/scripts/optimize_system.sh
+nexus            11696   0.0  0.1  4330676   5252   ??  S     8:49AM   0:00.23 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+nexus            11687   0.0  0.1  4368996   4752   ??  Ss    8:49AM   0:00.16 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 08BF1C8A-9A5C-460B-8083-6A2374B82CDD -post-exec 4
+nexus            11652   0.0  0.1  4368996   4724   ??  Ss    8:49AM   0:00.16 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 16384D03-7900-478B-95C4-61EE234CD02E -post-exec 4
+nexus            11649   0.0  0.1  4368996   4756   ??  Ss    8:49AM   0:00.23 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid A12CED38-926A-4832-80AB-890E4130AB12 -post-exec 4
+nexus            11648   0.0  0.1  4368996   4776   ??  Ss    8:49AM   0:00.15 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid C98F12F7-1593-4B86-8E5F-C9BEF74B4867 -post-exec 4
+nexus            11619   0.0  0.1  4368996   4764   ??  Ss    8:49AM   0:00.16 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 443318BE-93F7-4BB1-8D96-C8F0E96FCFF7 -post-exec 4
+nexus            11618   0.0  0.1  4368996   4740   ??  Ss    8:49AM   0:00.15 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 40634A54-52AF-4013-9891-74B30940B0DD -post-exec 4
+nexus            11601   0.0  0.1  4368996   4764   ??  Ss    8:49AM   0:00.21 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 2FEE70C8-B184-481E-95C8-CE80DEADC033 -post-exec 4
+nexus            11598   0.0  0.1  4368740   4648   ??  Ss    8:49AM   0:00.16 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 3A67A87F-65AC-45EA-BDC4-4B2DFAC2E227 -post-exec 4
+nexus            11597   0.0  0.1  4368996   4748   ??  Ss    8:49AM   0:00.24 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 787415D0-A72A-4BD0-8916-0B91D7CEDD79 -post-exec 4
+nexus            11049   0.0  0.0  4330092   1580   ??  S     8:47AM   0:00.06 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+nexus            11048   0.0  0.0  4329780   2348   ??  Ss    8:47AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus             9797   0.0  0.0  4849172   1492   ??  Ss    8:33AM   0:00.30 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus             9789   0.0  0.0  4855372   2128   ??  Ss    8:33AM   0:00.27 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus             9651   0.0  0.0  4313656   2360   ??  Ss    8:31AM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus             8979   0.0  0.1  4362496   6660   ??  S     8:26AM   0:00.38 /System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd
+nexus             8961   0.0  0.1  4361900   7784   ??  S     8:26AM   0:00.30 /usr/libexec/siriknowledged
+nexus             8934   0.0  0.1  4361864   6480   ??  S     8:26AM   0:00.39 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent
+nexus             8933   0.0  0.0  4361700   3076   ??  S     8:26AM   0:00.11 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtect
+_applepay         8447   0.0  0.0  4362872   3288   ??  Ss    8:21AM   0:00.15 /usr/libexec/nfcd
+nexus             8427   0.0  0.1  4373732   7000   ??  S     8:20AM   0:00.84 /System/Library/Frameworks/ClassKit.framework/Versions/A/progressd
+nexus             8424   0.0  0.2  4386404  14940   ??  S     8:20AM   0:02.18 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+nexus             8398   0.0  0.1  4366152   9152   ??  S     8:20AM   0:01.22 /System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent
+nexus             8355   0.0  0.3  4366736  26048   ??  S     8:20AM   0:01.05 /System/iOSSupport/System/Library/PrivateFrameworks/AvatarUI.framework/Support/avatarsd
+nexus             8173   0.0  0.1  4366352   9024   ??  S     8:19AM   0:00.89 /usr/libexec/transparencyd
+nexus             7794   0.0  0.3  5626040  27832   ??  Ss    8:16AM   0:51.17 /Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension
+root              7793   0.0  0.0  4362212   2556   ??  Ss    8:16AM   0:00.08 /System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd
+root              7792   0.0  0.0  4330712   3380   ??  Ss    8:16AM   0:00.23 /usr/libexec/nesessionmanager
+nexus             7789   0.0  0.0  4330632   2384   ??  S     8:16AM   0:00.04 /usr/libexec/loginitemregisterd
+nexus             7703   0.0  0.0  4321848   2360   ??  Ss    8:15AM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus             7700   0.0  0.1  4371284   6224   ??  S     8:15AM   0:00.40 /System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService
+nexus             7693   0.0  0.1  4363452   5596   ??  S     8:15AM   0:00.45 /System/Library/PrivateFrameworks/PodcastServices.framework/XPCServices/PodcastContentService.xpc/Contents/MacOS/PodcastContentService
+nexus             7689   0.0  0.1  4389616   6976   ??  Ss    8:15AM   0:00.23 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+nexus             7665   0.0  0.1  4361728   7952   ??  Ss    8:15AM   0:00.14 /System/Applications/Mail.app/Contents/PlugIns/MailCacheDelete.appex/Contents/MacOS/MailCacheDelete
+root              7664   0.0  0.0  4363172   3172   ??  Ss    8:15AM   0:00.08 /usr/bin/sysdiagnose
+nexus             7641   0.0  0.0  4361524   3260   ??  S     8:15AM   0:00.19 /System/Library/PrivateFrameworks/IntlPreferences.framework/Support/localizationswitcherd
+nexus             7609   0.0  0.0  4361128   3600   ??  S     8:14AM   0:00.15 /System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent
+nexus             7485   0.0  0.1  4363924   5092   ??  Ss    8:13AM   0:00.14 /System/Library/Frameworks/QuickLook.framework/Versions/A/XPCServices/ExternalQuickLookSatellite-x86_64.xpc/Contents/MacOS/ExternalQuickLookSatellite-x86_64
+nexus             5402   0.0  0.1  4388008   9472   ??  Ss    7:54AM   0:00.85 /Applications/CloudMounter.app/Contents/PlugIns/CMFinderSync.appex/Contents/MacOS/CMFinderSync
+nexus             5401   0.0  0.1  4386672   8776   ??  Ss    7:54AM   0:01.03 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+nexus             5400   0.0  0.1  4538544  10524   ??  Ss    7:54AM   0:00.78 /Applications/Shellcut.app/Contents/PlugIns/ShellcutFinderExtension.appex/Contents/MacOS/ShellcutFinderExtension
+nexus             5399   0.0  0.2  5067980  15424   ??  Ss    7:54AM   0:01.76 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+nexus             5398   0.0  0.5  6595948  45120   ??  Ss    7:54AM   3:19.78 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+nexus             5278   0.0  0.9 1459926244  77292   ??  S     7:54AM   0:05.21 /Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer) --type=renderer --user-data-dir=/Users/nexus/Library/Application Support/GitHub Desktop --app-path=/Applications/GitHub Desktop.app/Contents/Resources/app --no-sandbox --no-zygote --disable-blink-features=Auxclick --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1754482848493195 --launch-time-ticks=2010967680 --shared-files --field-trial-handle=1718379636,r,7916964736626246226,12333906797964286323,262144 --enable-features=PdfUseShowSaveFilePicker --disable-features=MacWebContentsOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+nexus             5266   0.0  0.3 38186164  22628   ??  S     7:54AM   0:02.60 /Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper.app/Contents/MacOS/GitHub Desktop Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --user-data-dir=/Users/nexus/Library/Application Support/GitHub Desktop --shared-files --field-trial-handle=1718379636,r,7916964736626246226,12333906797964286323,262144 --enable-features=PdfUseShowSaveFilePicker --disable-features=MacWebContentsOcclusion,SpareRendererForSitePerProcess --variations-seed-version --seatbelt-client=36
+nexus             5265   0.0  0.3 38277696  27456   ??  S     7:54AM   0:04.78 /Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (GPU).app/Contents/MacOS/GitHub Desktop Helper (GPU) --type=gpu-process --user-data-dir=/Users/nexus/Library/Application Support/GitHub Desktop --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=1718379636,r,7916964736626246226,12333906797964286323,262144 --enable-features=PdfUseShowSaveFilePicker --disable-features=MacWebContentsOcclusion,SpareRendererForSitePerProcess --variations-seed-version --seatbelt-client=36
+nexus             4498   0.0  0.0  4361968   4144   ??  S     7:47AM   0:00.17 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+nexus             4494   0.0  0.0  4330636   4136   ??  S     7:46AM   0:00.30 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+nexus             4090   0.0  0.0  4330112   2824   ??  S     7:42AM   0:00.05 /System/Library/PrivateFrameworks/StorageManagement.framework/Resources/diskspaced
+_fpsd             3519   0.0  0.0  4301872    744   ??  S     7:38AM   0:00.11 /usr/sbin/distnoted agent
+nexus             3509   0.0  0.1  4368632   6792   ??  S     7:38AM   0:00.18 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPArtworkAgent --launchd
+nexus             3502   0.0  0.1  4362088   5720   ??  S     7:38AM   0:00.72 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root              3027   0.0  0.0  4329768   2796   ??  Ss    7:34AM   0:05.77 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/hdiejectd
+nexus             3012   0.0  0.0  4330040   2360   ??  Ss    7:34AM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus             2997   0.0  0.0  4364296   2916   ??  Ss    7:34AM   0:00.52 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/CarbonComponentScannerXPC.xpc/Contents/MacOS/CarbonComponentScannerXPC
+nexus             2995   0.0  0.0  4330160   3716   ??  S     7:34AM   0:00.36 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+root              2778   0.0  0.1  4362000   7892   ??  Ss    7:32AM   0:00.89 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system
+nexus             2692   0.0  0.1  4367300   8624   ??  S     7:31AM   0:01.19 cloudphotod
+nexus             2663   0.0  0.2  4373124  13148   ??  S     7:31AM   0:04.34 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+nexus             2588   0.0  0.1  4370652   6000   ??  S     7:31AM   0:00.40 /usr/libexec/diagnosticextensionsd
+_fpsd             2466   0.0  0.0  4331336   2928   ??  Ss    7:31AM   0:00.12 /System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fairplayd
+root              2446   0.0  0.0  4330112   3308   ??  Ss    7:31AM   0:00.05 /usr/libexec/morphunassetsupdaterd
+nexus             2430   0.0  0.0  4521000   3528   ??  S     7:31AM   0:00.98 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService
+nexus             2418   0.0  0.0  4329568   1304   ??  Ss    7:31AM   0:00.03 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+nexus             2383   0.0  0.1  4370532  10384   ??  Ss    7:30AM   0:00.46 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.MobileDocumentsFileProvider
+root              2367   0.0  0.0  4329780   1132   ??  Ss    7:30AM   0:00.08 /usr/libexec/smd
+nexus             2365   0.0  0.1  4417696  12528   ??  S     7:30AM   0:03.60 /System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd
+nexus             2344   0.0  0.1  5070264  12500   ??  Ss    7:30AM   0:01.15 /System/Library/CoreServices/Dock.app/Contents/XPCServices/DockHelper.xpc/Contents/MacOS/DockHelper
+nexus             2333   0.0  0.1  4363448   7328   ??  Ss    7:30AM   0:00.23 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/com.apple.siri.ClientFlow.ClientScripter.xpc/Contents/MacOS/com.apple.siri.ClientFlow.ClientScripter
+nexus             2330   0.0  0.1  4362112   5100   ??  S     7:30AM   0:00.52 /usr/libexec/triald
+nexus             2329   0.0  0.1  4381708   6704   ??  S     7:30AM   0:00.71 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+nexus             2326   0.0  0.1  4399668   6188   ??  S     7:30AM   0:34.86 /System/Library/CoreServices/ReportCrash agent
+root              2322   0.0  0.1  4366720   7776   ??  Ss    7:30AM   0:01.08 /usr/libexec/rtcreportingd
+nexus             2321   0.0  0.3 106187928  27480   ??  Ss    7:30AM   0:05.15 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+nexus             2320   0.0  0.1  5427648   6148   ??  Ss    7:30AM   0:00.31 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+nexus             2318   0.0  0.1 106195760  11076   ??  Ss    7:30AM   0:02.15 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+nexus             2306   0.0  0.0  4321848   2360   ??  Ss    7:30AM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus             2303   0.0  0.1  4363792   6972   ??  S     7:30AM   0:01.10 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+nexus             2292   0.0  0.1  4547924  11008   ??  S     7:30AM   0:00.91 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager
+nexus             2265   0.0  0.1  4365952   6896   ??  S     7:30AM   0:00.28 /usr/libexec/keyboardservicesd
+nexus             2263   0.0  0.4  4470616  31484   ??  S     7:30AM   0:09.35 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+nexus             2242   0.0  0.0  4330124   1180   ??  Ss    7:30AM   0:00.01 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+nexus             2228   0.0  0.0  4270348    340   ??  S     7:30AM   0:00.01 sleep 31536000
+nexus             2086   0.0  0.1  4413548  12160   ??  S     7:30AM   0:00.68 /System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher
+root              2083   0.0  0.0  4330648   2700   ??  Ss    7:30AM   0:00.09 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/XPCServices/com.apple.AppStoreDaemon.StorePrivilegedTaskService.xpc/Contents/MacOS/com.apple.AppStoreDaemon.StorePrivilegedTaskService
+nexus             2082   0.0  0.0  4329716   2452   ??  S     7:30AM   0:00.12 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+nexus             2081   0.0  0.2  4908420  14040   ??  S     7:30AM   0:04.73 /Applications/Alfred.app/Contents/MacOS/Alfred
+root              2080   0.0  0.0  4329684   2040   ??  Ss    7:30AM   0:00.10 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+nexus             2078   0.0  0.2  5061200  12852   ??  S     7:30AM   0:00.90 /System/Library/CoreServices/Script Menu.app/Contents/MacOS/Script Menu launchd
+nexus             2077   0.0  0.1  4362584   9308   ??  S     7:30AM   0:01.94 /System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd
+nexus             2075   0.0  0.2  5070396  14896   ??  S     7:30AM   0:01.74 /System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent
+nexus             2071   0.0  0.2  4361888  12992   ??  S     7:30AM   0:04.19 /System/Library/CoreServices/cloudpaird
+nexus             2069   0.0  0.1  4915476  12580   ??  S     7:30AM   0:00.53 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+nexus             2068   0.0  0.0  4280140    604   ??  S     7:30AM   0:00.01 /bin/bash /usr/local/MacGPG2/libexec/shutdown-gpg-agent
+nexus             2065   0.0  0.1  4363596   8720   ??  S     7:30AM   0:01.97 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+nexus             2059   0.0  0.0  4361824   3556   ??  S     7:30AM   0:00.37 /System/Library/Image Capture/Support/icdd
+nexus             2047   0.0  0.1  4375884   8888   ??  S     7:30AM   0:00.60 /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher launchd
+nexus             2046   0.0  0.1  4363476   5560   ??  S     7:30AM   0:00.42 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+nexus             2045   0.0  0.1  4361952   9244   ??  Ss    7:30AM   0:00.74 /System/Applications/TV.app/Contents/PlugIns/TVCacheExtension.appex/Contents/MacOS/TVCacheExtension
+nexus             2043   0.0  0.3  9936280  28612   ??  Ss    7:29AM   0:01.06 /Applications/Safari.app/Contents/PlugIns/CacheDeleteExtension.appex/Contents/MacOS/CacheDeleteExtension
+nexus             2042   0.0  0.1  4361952   9252   ??  Ss    7:29AM   0:00.77 /System/Applications/Music.app/Contents/PlugIns/MusicCacheExtension.appex/Contents/MacOS/MusicCacheExtension
+nexus             2039   0.0  0.1  4330460   5532   ??  S     7:29AM   0:00.23 /usr/libexec/replayd
+root              2038   0.0  0.0  4361536   3620   ??  Ss    7:29AM   0:00.42 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+root              2037   0.0  0.1  4378680   5584   ??  Ss    7:29AM   0:04.13 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+nexus             2036   0.0  0.1  4331916   5660   ??  S     7:29AM   0:00.29 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+root              2035   0.0  0.1  4360984   4736   ??  Ss    7:29AM   0:00.39 /usr/libexec/symptomsd-diag
+root              2034   0.0  0.0  4362172   2736   ??  Ss    7:29AM   0:00.29 /usr/libexec/aned
+nexus             2033   0.0  0.1  4362912   6476   ??  S     7:29AM   0:01.01 /System/Library/CoreServices/diagnostics_agent
+_installcoordinationd  2032   0.0  0.0  4301872    744   ??  S     7:29AM   0:00.15 /usr/sbin/distnoted agent
+nexus             2031   0.0  0.0  4330124   1204   ??  Ss    7:29AM   0:00.08 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+root              2029   0.0  0.0  4330060   1712   ??  Ss    7:29AM   0:01.67 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted_helper
+nexus             2028   0.0  0.3  5869228  22196   ??  Ss    7:29AM   0:09.61 /System/Library/Frameworks/QuickLook.framework/Versions/A/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+nexus             2027   0.0  0.1  4363140   6432   ??  S     7:29AM   0:45.53 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+nexus             2026   0.0  0.3  4417120  21108   ??  S     7:29AM   0:03.27 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+nexus             2025   0.0  0.1  4883764   9020   ??  S     7:29AM   0:04.44 /System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+nexus             2024   0.0  0.0  4822120   3948   ??  S     7:29AM   0:00.19 /usr/libexec/SidecarRelay
+nexus             2022   0.0  0.1  4368736  11084   ??  S     7:29AM   0:01.70 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+nexus             2021   0.0  0.2  4641548  19544   ??  S     7:29AM   0:01.94 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+nexus             2019   0.0  0.1  4388008   9580   ??  Ss    7:29AM   0:00.90 /Applications/CloudMounter.app/Contents/PlugIns/CMFinderSync.appex/Contents/MacOS/CMFinderSync
+nexus             2014   0.0  0.0  4330124   1204   ??  Ss    7:29AM   0:00.09 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+nexus             2011   0.0  0.0  4362284   3880   ??  S     7:29AM   0:00.18 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService
+nexus             2010   0.0  0.0  4813420   2324   ??  S     7:29AM   0:00.02 SafeEjectGPUAgent
+nexus             2006   0.0  0.0  4361596   2516   ??  S     7:29AM   0:00.11 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+nexus             1996   0.0  0.1  5426732  10696   ??  S     7:29AM   0:03.15 /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd
+nexus             1995   0.0  0.1  4377856  10836   ??  S     7:29AM   0:35.42 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+nexus             1994   0.0  0.1  4867760  10060   ??  Ss    7:29AM   0:02.64 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+nexus             1993   0.0  0.1  4363128  11136   ??  S     7:29AM   0:01.04 /usr/libexec/fmfd
+nexus             1973   0.0  0.1  4363380   6280   ??  S     7:29AM   0:00.22 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+nexus             1348   0.0  0.0  4330048   2588   ??  Ss    7:29AM   0:00.04 /Applications/BBEdit.app/Contents/XPCServices/BBShellCommandXPCService.xpc/Contents/MacOS/BBShellCommandXPCService
+nexus             1302   0.0  0.1  4366540   7236   ??  Ss    7:29AM   0:01.11 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+nexus             1241   0.0  0.1  4368096   9876   ??  S     7:29AM   0:00.74 /System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent
+nexus             1238   0.0  0.0  4329540   2344   ??  S     7:29AM   0:00.14 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+nexus             1171   0.0  0.1  4368244   8432   ??  S     7:29AM   0:00.62 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+root              1107   0.0  0.0  4338008   1016   ??  Ss    7:29AM   0:00.08 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+nexus              929   0.0  0.1  4363684   5588   ??  S     7:29AM   0:00.83 /System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf
+nexus              918   0.0  0.1  4538644  11060   ??  Ss    7:29AM   0:00.98 /Applications/Shellcut.app/Contents/PlugIns/ShellcutFinderExtension.appex/Contents/MacOS/ShellcutFinderExtension
+nexus              807   0.0  0.0  4297548    476 s008  Ss    7:29AM   0:00.66 /bin/zsh --login
+nexus              800   0.0  0.1  4370428   6576   ??  S     7:29AM   0:00.41 /usr/libexec/neagent
+nexus              798   0.0  0.1  4363236  11192   ??  S     7:29AM   0:00.85 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+nexus              793   0.0  0.1  4387688   8728   ??  Ss    7:29AM   0:00.88 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+_installcoordinationd   792   0.0  0.0  4330780   3828   ??  Ss    7:29AM   0:00.23 /System/Library/PrivateFrameworks/InstallCoordination.framework/Support/installcoordinationd
+nexus              786   0.0  0.1  4362156   5844   ??  S     7:29AM   0:00.24 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+nexus              785   0.0  0.1  5028224   9416   ??  S     7:29AM   0:00.42 /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent
+nexus              780   0.0  0.1  4373052   8088   ??  S     7:29AM   0:03.28 /System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd
+nexus              779   0.0  0.2  4370144  13468   ??  S     7:29AM   0:02.22 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+root               755   0.0  0.1  4361852   5732   ??  Ss    7:29AM   0:05.91 /usr/libexec/wifivelocityd
+root               754   0.0  0.1  4362868   5432   ??  Ss    7:29AM   0:00.68 /usr/sbin/WirelessRadioManagerd
+nexus              753   0.0  0.2  4372764  15916   ??  S     7:29AM   0:02.57 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+nexus              751   0.0  0.1  4370624   4596   ??  S     7:29AM   0:00.98 /System/Library/CoreServices/pbs
+nexus              749   0.0  0.1  4634676   9812   ??  S     7:29AM   0:00.53 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+nexus              748   0.0  0.0  4330144   1976   ??  S     7:29AM   0:01.32 /usr/libexec/WiFiVelocityAgent
+nexus              747   0.0  0.0  4331244   2808   ??  S     7:29AM   0:00.91 /System/Library/CoreServices/ScopedBookmarkAgent
+nexus              745   0.0  0.1  4406132  11780   ??  S     7:29AM   0:04.82 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+_ctkd              744   0.0  0.0  4330208   1696   ??  Ss    7:29AM   0:00.09 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+nexus              743   0.0  0.4  4411404  31132   ??  S     7:29AM  14:42.93 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+root               739   0.0  0.1  4329816   4916 s004  Ss+   7:29AM   0:00.24 login -pf nexus /bin/zsh
+nexus              734   0.0  0.1  4329868   6228   ??  S     7:29AM   0:00.33 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+nexus              732   0.0  0.1  4362440   7048   ??  S     7:29AM   0:00.32 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+nexus              731   0.0  0.0  4329540   3864   ??  S     7:29AM   0:00.23 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+nexus              729   0.0  0.1  4375540  12004   ??  S     7:29AM   0:00.42 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+nexus              728   0.0  0.0  4329820   3220   ??  S     7:29AM   0:00.09 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+nexus              725   0.0  0.0  4362468   4132   ??  S     7:29AM   0:00.35 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+nexus              724   0.0  0.1  4361900   5864   ??  Ss    7:29AM   0:00.32 /System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech
+root               723   0.0  0.0  4329780   2336   ??  Ss    7:29AM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus              722   0.0  0.0  4330060   1576   ??  Ss    7:29AM   0:00.04 /System/Library/PrivateFrameworks/login.framework/Versions/A/XPCServices/LoginUserService.xpc/Contents/MacOS/LoginUserService
+nexus              717   0.0  0.1  4361956   5316   ??  S     7:29AM   0:00.18 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+nexus              716   0.0  0.1  4368708  10700   ??  Ss    7:29AM   0:01.42 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+_fpsd              715   0.0  0.0  4331836   2660   ??  Ss    7:29AM   0:02.75 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+root               714   0.0  0.1  4338376   8676   ??  Ss    7:29AM   0:30.87 /usr/sbin/filecoordinationd
+nexus              713   0.0  0.1  4895612   9876   ??  Ss    7:29AM   0:00.39 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.external.extra.x86_64.xpc/Contents/MacOS/com.apple.dock.external.extra.x86_64
+nexus              712   0.0  0.3  5086552  25256   ??  S     7:29AM   0:05.07 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+nexus              709   0.0  0.3  4906868  23456   ??  Ss    7:29AM   0:00.85 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+nexus              707   0.0  0.2  4369628  12728   ??  S     7:29AM   0:03.39 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+nexus              706   0.0  0.2  4615128  17576   ??  S     7:29AM   0:41.25 /System/Library/CoreServices/iconservicesagent
+nexus              705   0.0  0.1  4361868   9276   ??  S     7:29AM   0:00.99 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+nexus              704   0.0  0.0  4385348   3824   ??  S     7:29AM   0:01.11 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+_appleevents       703   0.0  0.0  4301872    744   ??  S     7:29AM   0:00.13 /usr/sbin/distnoted agent
+nexus              702   0.0  0.1  4362024   5116   ??  S     7:29AM   0:00.29 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+nexus              701   0.0  0.1  4364116   6560   ??  S     7:29AM   1:09.10 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+nexus              700   0.0  0.2  4444748  14328   ??  S     7:29AM   0:03.47 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+nexus              699   0.0  0.1  4374352  12348   ??  S     7:29AM   0:01.89 /usr/libexec/knowledge-agent
+nexus              698   0.0  0.2  4364720  14940   ??  S     7:29AM   0:02.43 /System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed
+nexus              697   0.0  0.1  4885068  11344   ??  Ss    7:29AM   0:00.98 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+nexus              694   0.0  0.1  4409440   9952   ??  S     7:29AM   0:09.00 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+nexus              693   0.0  0.1  4537136  12036   ??  S     7:29AM   0:35.05 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+nexus              691   0.0  0.1  4374644  12304   ??  S     7:29AM   0:02.10 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+nexus              690   0.0  0.0  4330096   1748   ??  S     7:29AM   0:00.04 /System/Library/CoreServices/APFSUserAgent
+nexus              689   0.0  0.1  4372684  10136   ??  S     7:29AM   0:01.48 /usr/sbin/usernoted
+nexus              688   0.0  0.0  4361864   3940   ??  S     7:29AM   0:00.45 /usr/libexec/networkserviceproxy
+nexus              687   0.0  0.3  4414668  27200   ??  S     7:29AM   1:21.56 /usr/libexec/nsurlsessiond
+nexus              684   0.0  0.4  4550156  33988   ??  S     7:29AM   0:13.53 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+nexus              679   0.0  0.1  4371584   8896   ??  S     7:29AM   0:06.45 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+nexus              678   0.0  0.2  5077064  20568   ??  S     7:29AM   0:02.40 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+nexus              675   0.0  0.1  4404776  11540   ??  S     7:29AM   0:00.83 /System/Library/CoreServices/talagent
+nexus              674   0.0  0.1  4362476   6084   ??  S     7:29AM   0:03.42 /usr/libexec/swcd
+nexus              673   0.0  0.5  5445008  43788   ??  S     7:29AM   1:09.87 /Applications/BBEdit.app/Contents/MacOS/BBEdit
+nexus              669   0.0  0.0  4362636   3632   ??  S     7:29AM   0:01.55 /usr/libexec/secinitd
+nexus              668   0.0  0.2  4393892  20336   ??  S     7:29AM   0:04.57 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+nexus              666   0.0  0.2  4376456  14580   ??  S     7:29AM   0:01.70 /System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd
+nexus              665   0.0  0.1  4367540   7728   ??  S     7:29AM   0:01.74 /usr/libexec/dmd
+nexus              664   0.0  0.2  4369384  12888   ??  S     7:29AM   0:04.20 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+nexus              663   0.0  0.2  4362512  13028   ??  S     7:29AM   0:02.89 /usr/libexec/rapportd
+nexus              661   0.0  0.2  4375920  12864   ??  S     7:29AM   0:02.41 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+nexus              650   0.0  0.0  4330160   2168   ??  S     7:29AM   0:00.04 /System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd
+nexus              647   0.0  0.1  4363220   7604   ??  S     7:29AM   0:00.31 /System/Library/CoreServices/backgroundtaskmanagementagent
+nexus              643   0.0  0.0  4330804   2628   ??  S     7:29AM   0:00.09 /usr/libexec/spindump_agent
+nexus              642   0.0  0.1  4866664   7844   ??  S     7:29AM   0:02.12 /usr/sbin/universalaccessd launchd -s
+nexus              637   0.0  0.1  4369920   7104   ??  S     7:29AM   0:00.69 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper
+root               636   0.0  0.0  4330092   1044   ??  Ss    7:29AM   0:00.18 /usr/libexec/securityd_service
+root               575   0.0  0.0  4361956   2752   ??  Ss    7:26AM   0:00.17 /usr/libexec/ASPCarryLog
+nexus              481   0.0  0.1  4363660   4892   ??  S     7:24AM   0:02.43 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+nexus              480   0.0  0.1  4371684  10824   ??  S     7:24AM   0:41.93 /usr/libexec/trustd --agent
+nexus              479   0.0  0.2  4379244  14416   ??  S     7:24AM   0:21.86 /usr/libexec/secd
+nexus              478   0.0  0.1  4371740  11152   ??  S     7:24AM   0:22.76 /usr/libexec/lsd
+nexus              475   0.0  0.2  4370448  12984   ??  S     7:24AM   0:24.71 /usr/libexec/pkd
+nexus              474   0.0  0.0  4331424   3044   ??  S     7:24AM   0:46.17 /usr/sbin/cfprefsd agent
+nexus              471   0.0  0.1  4372336   7536   ??  SN    7:24AM   0:13.93 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+_spotlight         446   0.0  0.1  4338180   4920   ??  S     7:23AM   0:09.24 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+root               436   0.0  0.0  4296672    356   ??  Ss    7:22AM   0:00.01 /usr/libexec/rpc.rquotad
+root               435   0.0  0.0  4296256    120   ??  S     7:22AM   0:00.01 /usr/sbin/rpc.lockd
+daemon             434   0.0  0.0  4329040    444   ??  Ss    7:22AM   0:00.11 /usr/sbin/rpcbind
+root               433   0.0  0.0  4319520    348   ??  Ss    7:22AM   0:00.01 /usr/sbin/rpc.statd
+root               432   0.0  0.0  4278856    368   ??  Ss    7:22AM   0:00.01 /usr/sbin/rpc.lockd
+root               414   0.0  0.0  4330128   1744   ??  R     7:21AM   0:00.52 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+root               412   0.0  0.1  4362600   6160   ??  Ss    7:21AM   0:03.27 /usr/sbin/spindump
+root               411   0.0  0.0  4364868   3496   ??  Ss    7:21AM   0:00.49 /usr/sbin/systemsoundserverd
+root               410   0.0  0.0  4362844   3564   ??  Ss    7:21AM   0:01.19 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+root               407   0.0  0.1  4361680   5072   ??  Ss    7:21AM   0:00.29 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               404   0.0  0.0  4367888   3652   ??  Ss    7:21AM   0:00.11 /System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheTetheratorService.xpc/Contents/MacOS/AssetCacheTetheratorService
+root               403   0.0  0.1  4330912   5236   ??  Ss    7:21AM   0:00.16 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root               401   0.0  0.1  4363052   7372   ??  Ss    7:21AM   0:00.82 /System/Library/CoreServices/SubmitDiagInfo server-init
+root               388   0.0  0.1  4391492   4508   ??  Ss    7:21AM   0:07.03 /usr/sbin/systemstats --daily
+root               386   0.0  0.0  4302148    332   ??  Ss    7:21AM   0:00.00 /usr/sbin/aslmanager -s /var/log/eventmonitor
+root               384   0.0  0.0  4330080   1680   ??  Ss   31Dec22   0:00.05 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+_cmiodalassistants   383   0.0  0.0  4331120   1968   ??  Ss   31Dec22   0:00.44 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant
+root               382   0.0  0.0  4330080    740   ??  Ss   31Dec22   0:00.02 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+root               381   0.0  0.0  4363276   2984   ??  S    31Dec22   0:00.94 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+root               380   0.0  0.1  4330128   5536   ??  Ss   31Dec22   0:00.15 /System/Library/PrivateFrameworks/SiriInference.framework/Support/siriinferenced
+_netbios           379   0.0  0.0  4330464   2736   ??  SNs  31Dec22   0:00.21 /usr/sbin/netbiosd
+root               376   0.0  0.0  4329572   3484   ??  Ss   31Dec22   0:00.07 /usr/libexec/bootinstalld
+root               374   0.0  0.0  4330304   1572   ??  Ss   31Dec22   0:08.02 /usr/libexec/sysmond
+root               373   0.0  0.0  4329764   1276   ??  Ss   31Dec22   0:00.01 /System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent
+_captiveagent      372   0.0  0.0  4330684   2540   ??  Ss   31Dec22   0:00.38 /usr/libexec/captiveagent
+root               370   0.0  0.0  4329244   1320   ??  Ss   31Dec22   0:00.09 /usr/libexec/colorsyncd
+root               369   0.0  0.0  4329844   2304   ??  Ss   31Dec22   0:00.09 /usr/libexec/colorsync.displayservices
+root               367   0.0  0.1  4361844   4248   ??  Ss   31Dec22   0:00.24 /usr/libexec/wifianalyticsd
+_windowserver      364   0.0  0.0  4301872    744   ??  S    31Dec22   0:00.14 /usr/sbin/distnoted agent
+root               363   0.0  0.0  4362092   2544   ??  Ss   31Dec22   0:00.23 /usr/libexec/secinitd
+_hidd              361   0.0  0.0  4329556   1576   ??  Ss   31Dec22   0:00.05 /usr/libexec/hidd
+root               360   0.0  0.0  4361860   3404   ??  Ss   31Dec22   0:00.11 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService
+_spotlight         358   0.0  0.0  4330340   1656   ??  S    31Dec22   0:00.10 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+root               354   0.0  0.0  4385156   3732   ??  Ss   31Dec22   0:00.77 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker
+_atsserver         353   0.0  0.0  4331528   3192   ??  Ss   31Dec22   0:00.64 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+_spotlight         352   0.0  0.0  4364336   3196   ??  S    31Dec22   0:02.64 /usr/libexec/trustd --agent
+_spotlight         351   0.0  0.1  4368800   4644   ??  S    31Dec22   0:00.17 /usr/libexec/pkd
+_spotlight         350   0.0  0.1  4371420   7804   ??  SN   31Dec22   0:14.36 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+_spotlight         349   0.0  0.0  4301908    908   ??  S    31Dec22   0:00.17 /usr/sbin/distnoted agent
+root               348   0.0  0.0  4330992   4084   ??  Ss   31Dec22   0:00.22 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+_softwareupdate    347   0.0  0.0  4301872    744   ??  S    31Dec22   0:00.13 /usr/sbin/distnoted agent
+root               345   0.0  0.1  4332280   4440   ??  Ss   31Dec22   1:47.31 /usr/libexec/thermald
+root               343   0.0  0.0  4361968   3792   ??  Ss   31Dec22   1:21.87 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+root               341   0.0  0.0  4329784   1212   ??  Ss   31Dec22   0:00.36 /usr/libexec/logd_helper
+root               340   0.0  0.0  4330588   2628   ??  Ss   31Dec22   0:00.78 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root               339   0.0  0.0  4330124   1188   ??  Ss   31Dec22   0:00.03 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+_nsurlsessiond     334   0.0  0.0  4363760   2020   ??  Ss   31Dec22   0:00.08 /System/Library/PrivateFrameworks/StreamingZip.framework/Versions/A/XPCServices/com.apple.StreamingUnzipService.privileged.xpc/Contents/MacOS/com.apple.StreamingUnzipService.privileged
+_nsurlsessiond     333   0.0  0.0  4301872    744   ??  S    31Dec22   0:00.14 /usr/sbin/distnoted agent
+_softwareupdate    329   0.0  0.2  5499272  12720   ??  Ss   31Dec22   0:08.99 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+root               327   0.0  0.0  4321440   2064   ??  Ss   31Dec22   0:00.02 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+nexus              325   0.0  0.0  4363328   3004   ??  Ss   31Dec22   0:00.21 aceagent
+_coreaudiod        322   0.0  0.0  4320564   2348   ??  Ss   31Dec22   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root               321   0.0  0.0  4331152   2688   ??  Ss   31Dec22   0:13.09 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root               320   0.0  0.0  4330120   2596   ??  Ss   31Dec22   0:00.15 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+_coreaudiod        318   0.0  0.0  4362232   2560   ??  Ss   31Dec22   0:00.08 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root               312   0.0  0.0  4288148    680   ??  Ss   31Dec22   0:00.52 /usr/sbin/cron
+root               310   0.0  0.0  4335032   1268   ??  Ss   31Dec22   0:00.52 /sbin/nfsd
+root               309   0.0  0.1  4362616   4420   ??  Ss   31Dec22   1:02.14 /usr/libexec/ApplicationFirewall/socketfilterfw
+root               307   0.0  0.1  4364532   5076   ??  Ss   31Dec22   0:04.34 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+_locationd         306   0.0  0.0  4361984   2604   ??  S    31Dec22   0:00.12 /usr/libexec/containermanagerd --runmode=agent --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none
+_locationd         305   0.0  0.0  4364336   3204   ??  S    31Dec22   0:00.32 /usr/libexec/trustd --agent
+root               304   0.0  0.4  4556240  29996   ??  Ss   31Dec22   2:03.42 /System/Library/CoreServices/ReportCrash daemon
+_locationd         303   0.0  0.0  4321884    752   ??  S    31Dec22   0:00.02 /usr/sbin/cfprefsd agent
+_locationd         302   0.0  0.0  4362108   2536   ??  S    31Dec22   0:00.25 /usr/libexec/secinitd
+_locationd         301   0.0  0.1  4365596   7868   ??  S    31Dec22   0:01.19 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+_locationd         300   0.0  0.0  4301872    744   ??  S    31Dec22   0:00.15 /usr/sbin/distnoted agent
+root               295   0.0  0.0  4362132   3040   ??  Ss   31Dec22   0:01.58 /usr/sbin/mDNSResponderHelper
+root               294   0.0  0.2  4370360  13920   ??  Ss   31Dec22   0:12.58 /usr/libexec/mobileassetd
+root               285   0.0  0.0  4361132   3016   ??  Ss   31Dec22   0:00.16 /usr/libexec/usbd
+root               281   0.0  0.1  4365300   6216   ??  Ss   31Dec22   0:16.01 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+root               277   0.0  0.0  4329600   2504   ??  Ss   31Dec22   0:00.14 /usr/libexec/apfsd
+root               276   0.0  0.0  4329572   1976   ??  Ss   31Dec22   0:00.04 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+_assetcache        275   0.0  0.0  4363064   4076   ??  Ss   31Dec22   0:00.54 /usr/libexec/AssetCache/AssetCache
+_nsurlsessiond     266   0.0  0.1  4375060   7964   ??  Ss   31Dec22   0:03.68 /usr/libexec/nsurlsessiond --privileged
+root               264   0.0  0.0  4332828   3196   ??  Ss   31Dec22   0:00.26 /usr/libexec/diskmanagementd
+root               235   0.0  0.1  4362480   6692   ??  Ss   31Dec22   0:00.29 /usr/libexec/findmydeviced
+root               234   0.0  0.1  4367144   6756   ??  Ss   31Dec22   0:00.57 /usr/libexec/searchpartyd
+_networkd          233   0.0  0.1  4362292   5828   ??  Ss   31Dec22   0:02.94 /usr/libexec/symptomsd
+root               232   0.0  0.0  4361712   3976   ??  Ss   31Dec22   0:00.49 /usr/libexec/nehelper
+_coreaudiod        222   0.0  0.0  4301872    744   ??  S    31Dec22   0:00.16 /usr/sbin/distnoted agent
+root             45959   0.0  0.0  4278192   1068 s003  R+    3:15PM   0:00.03 ps aux
+_coreaudiod        215   0.0  0.1  4380032   9240   ??  Ss   31Dec22   3:44.97 /usr/sbin/coreaudiod
+root               210   0.0  0.1  4373900  12388   ??  Ss   31Dec22   1:29.32 /usr/libexec/airportd
+root               206   0.0  0.1  4369608   9020   ??  Ss   31Dec22   0:01.31 /usr/libexec/lsd runAsRoot
+root               198   0.0  0.0  4301908    896   ??  S    31Dec22   0:00.21 /usr/sbin/distnoted agent
+root               188   0.0  0.1  4363776   6268   ??  Ss   31Dec22   0:02.41 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               187   0.0  0.0  4329536   3680   ??  Ss   31Dec22   0:00.15 /usr/libexec/PowerUIAgent
+root               186   0.0  0.0  4361712   3892   ??  Ss   31Dec22   0:01.28 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+_trustd            184   0.0  0.1  4365196  10408   ??  Ss   31Dec22   4:19.32 /usr/libexec/trustd
+root               150   0.0  0.0  4329804    356   ??  Ss   31Dec22   0:00.18 aslmanager
+root               149   0.0  0.1  4370732  10980   ??  Ss   31Dec22   0:12.82 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root               147   0.0  0.0  4374056   2848   ??  Ss   31Dec22   0:01.61 /System/Library/CoreServices/coreservicesd
+root               146   0.0  0.1  4413388  11508   ??  Ss   31Dec22   4:14.31 /usr/libexec/syspolicyd
+root               145   0.0  0.0  4297076   2216   ??  Ss   31Dec22   0:00.46 /usr/libexec/taskgated
+root               144   0.0  0.1  4373936   4348   ??  Ss   31Dec22   0:02.10 /usr/libexec/amfid
+root               143   0.0  0.1  4366660   8380   ??  Ss   31Dec22   0:48.83 /usr/libexec/AirPlayXPCHelper
+root               142   0.0  0.1  4362384   8144   ??  Ss   31Dec22   0:02.84 /usr/libexec/corebrightnessd --launchd
+root               141   0.0  0.0  4382436   3440   ??  Ss   31Dec22   0:11.16 /usr/libexec/sandboxd
+root               137   0.0  0.0  4321848    928   ??  Ss   31Dec22   0:00.03 /usr/sbin/KernelEventAgent
+root               136   0.0  0.0  4366204   3644   ??  Ss   31Dec22   0:27.71 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               135   0.0  0.0  4329604   2964   ??  Ss   31Dec22   0:00.14 /System/Library/CoreServices/logind
+root               134   0.0  0.0  4397780   3920   ??  Ss   31Dec22   0:05.04 /Library/Application Support/CleverFiles/BackService.app/Contents/MacOS/cfbackd
+root               131   0.0  0.0  4322012   2316   ??  Ss   31Dec22   0:00.06 /System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon
+_distnote          130   0.0  0.0  4301908   1572   ??  Ss   31Dec22   0:01.18 /usr/sbin/distnoted daemon
+root               128   0.0  0.1  4368764  11876   ??  Ss   31Dec22   6:26.52 /usr/libexec/dasd
+_displaypolicyd    127   0.0  0.0  4332740   3076   ??  Ss   31Dec22   0:00.13 /usr/libexec/displaypolicyd -k 1
+root               126   0.0  0.0  4330176   1568   ??  Ss   31Dec22   0:00.03 autofsd
+_locationd         124   0.0  0.1  4375580   8948   ??  Ss   31Dec22   0:02.89 /usr/libexec/locationd
+root               121   0.0  0.1  4364700   5444   ??  Ss   31Dec22   0:02.35 /usr/sbin/securityd -i
+_usbmuxd           120   0.0  0.1  4370480   5904   ??  Ss   31Dec22   0:05.46 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+_timed             119   0.0  0.0  4361128   2744   ??  Ss   31Dec22   0:00.19 /usr/libexec/timed
+root               117   0.0  0.1  4369316   9756   ??  Ss   31Dec22   0:04.18 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               115   0.0  0.2  4375104  15788   ??  Ss   31Dec22   3:33.61 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+root               114   0.0  0.0  4329544    948   ??  Ss   31Dec22   0:00.04 /usr/libexec/thermalmonitord
+root               111   0.0  0.1  4432208  11332   ??  Ss   31Dec22   1:07.94 /usr/libexec/coreduetd
+root               108   0.0  0.0  4361136   3200   ??  Ss   31Dec22   0:22.68 /usr/libexec/diskarbitrationd
+root               107   0.0  0.2  4369052  12648   ??  Ss   31Dec22   7:01.94 /usr/libexec/kernelmanagerd
+_iconservices      106   0.0  0.0  4330616   2520   ??  Ss   31Dec22   0:00.22 /System/Library/CoreServices/iconservicesd
+root               101   0.0  0.0  4330108   2484   ??  Ss   31Dec22   0:01.22 /usr/libexec/watchdogd
+_softwareupdate     99   0.0  0.1  4362000   5012   ??  Ss   31Dec22   0:00.27 /System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated
+root                96   0.0  0.0  4329972   2316   ??  Ss   31Dec22   0:00.43 /usr/libexec/keybagd -t 15
+root                93   0.0  0.0  4366552   2552   ??  Ss   31Dec22   0:00.35 /usr/libexec/remoted
+root                90   0.0  0.1  4363060   5956   ??  Ss   31Dec22   0:23.31 /System/Library/CoreServices/powerd.bundle/powerd
+root                89   0.0  0.0  4320832    984   ??  Ss   31Dec22   0:00.01 endpointsecurityd
+root                88   0.0  0.1  4367664   7300   ??  Ss   31Dec22   0:35.29 /usr/libexec/configd
+root                86   0.0  0.1  4374536   7072   ??  Ss   31Dec22   0:15.21 /usr/sbin/systemstats --daemon
+nobody              83   0.0  0.0  4296556    512   ??  Ss   31Dec22   0:00.04 /usr/local/opt/dnsmasq/sbin/dnsmasq --keep-in-foreground -C /usr/local/etc/dnsmasq.conf -7 /usr/local/etc/dnsmasq.d,*.conf
+root                81   0.0  0.1  4372720  11080   ??  Ss   31Dec22   0:02.50 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root                79   0.0  0.0  4329272   2324   ??  Ss   31Dec22   0:01.27 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+root                76   0.0  0.1  4365384   9816   ??  Ss   31Dec22   0:08.24 /usr/libexec/UserEventAgent (System)
+root                75   0.0  0.0  4331696   1124   ??  Ss   31Dec22   3:16.15 /usr/sbin/syslogd
+root               216   0.0  0.0  4362240   3132   ??  Ss   31Dec22   0:01.57 /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/XPCServices/XProtectPluginService.xpc/Contents/MacOS/XProtectPluginService
+nexus            45931   0.0  0.0  4330600   2228   ??  S     3:15PM   0:00.04 trustevaluationagent
+_postfix         45917   0.0  0.0  4296572   1736   ??  S     3:15PM   0:00.02 qmgr -l -t fifo -u
+_postfix         45916   0.0  0.0  4296524   1696   ??  S     3:15PM   0:00.02 pickup -l -t fifo -u -o content_filter=
+root             45915   0.0  0.0  4288216   1732   ??  Ss    3:15PM   0:00.07 master -e 60
+_analyticsd      45911   0.0  0.0  4297428   3200   ??  Ss    3:15PM   0:00.14 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+nexus            45806   0.0  0.7 1461416216  55936   ??  S     3:13PM   0:00.50 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --extension-process --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1307 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=28375305226 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=164
+nexus            45753   0.0  0.0  4331812   1040   ??  Ss    3:12PM   0:00.02 gpg-agent --homedir /Users/nexus/.gnupg --use-standard-socket --daemon
+root             45746   0.0  0.0  4361192   3624   ??  Ss    3:12PM   0:00.05 /usr/sbin/ocspd
+nexus            44836   0.0  0.4  5114184  32320   ??  R     3:03PM   0:03.03 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+root             43991   0.0  0.1  4329816   5336 s002  Ss+   2:56PM   0:00.85 login -pf nexus /bin/zsh
+nexus            43640   0.0  0.2 1459720420  15544   ??  S     2:51PM   0:00.42 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1275 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=27048147775 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=189
+nexus            26646   0.0  2.1 1459737392 175056   ??  S    11:30AM   0:18.32 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=530 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=14979619910 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=166
+nexus            25412   0.0  0.5 1459830272  44576   ??  S    11:18AM   0:40.43 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=426 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=14288581319 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=135
+nexus            25401   0.0  0.5 1461450840  42412   ??  S    11:18AM   0:20.61 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=424 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=14282055404 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=135
+nexus            25369   0.0  1.2 1459975764  98112   ??  R    11:18AM   5:07.97 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=406 --time-ticks-at-unix-epoch=-1754482848341747 --launch-time-ticks=14264415238 --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=135
+nexus            25100   0.0  0.1  4379536   5964   ??  Ss   11:15AM   0:02.97 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+nexus            25014   0.0  0.5 93889364  40824   ??  Ss   11:14AM   0:00.63 /Library/Apple/System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+nexus            24822   0.0  0.1  4365840   9232   ??  S    11:11AM   0:00.88 /System/Library/CoreServices/mapspushd
+nexus            23932   0.0  0.1  4370456   6948   ??  Ss   11:01AM   0:00.07 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/SandboxedServiceRunner.xpc/Contents/MacOS/SandboxedServiceRunner
+nexus            23423   0.0  0.2  4413464  13524   ??  S    10:56AM   0:00.40 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime
+nexus            23420   0.0  0.0  4361524   2440   ??  S    10:56AM   0:00.03 /System/Library/Frameworks/DiskArbitration.framework/Versions/A/Support/DiskArbitrationAgent
+root             23113   0.0  0.0  4329540   1800   ??  Ss   10:52AM   0:00.03 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+root             22547   0.0  0.0  4330160   2728   ??  Ss   10:45AM   0:00.13 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+nexus            22535   0.0  0.2  4418084  16496   ??  S    10:45AM   0:01.93 /usr/libexec/studentd
+nexus            21584   0.0  0.1  4849144   8064   ??  Ss   10:31AM   0:00.34 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus            21582   0.0  0.0  4855612   2264   ??  Ss   10:31AM   0:00.44 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService
+nexus            21577   0.0  0.1  4903976  12356   ??  S    10:31AM   0:01.01 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+nexus            20315   0.0  0.0  4321588   2372   ??  Ss   10:18AM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+nexus            20166   0.0  0.0  4366420   4184   ??  Ss   10:16AM   0:04.94 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+nexus            20144   0.0  0.1  4389032  11252   ??  Ss   10:16AM   0:00.61 /Applications/CloudMounter.app/Contents/PlugIns/CMFinderSync.appex/Contents/MacOS/CMFinderSync
+nexus            20143   0.0  0.1  4387688   9320   ??  Ss   10:16AM   0:00.67 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+nexus            20142   0.0  0.1  4382616   9992   ??  Ss   10:16AM   0:00.34 /Applications/Shellcut.app/Contents/PlugIns/ShellcutFinderExtension.appex/Contents/MacOS/ShellcutFinderExtension
+nexus            20138   0.0  0.1  4867408   9760   ??  Ss   10:16AM   0:00.57 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+nexus            20137   0.0  0.4  5449488  35412   ??  Ss   10:16AM   1:52.02 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+nexus            20131   0.0  0.1  4897084  10160   ??  S    10:16AM   0:00.97 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ColorSampler.xpc/Contents/MacOS/ColorSampler
+nexus            19847   0.0  0.1  4380016   5068   ??  Ss   10:11AM   0:00.37 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTEncoderXPCService.xpc/Contents/MacOS/VTEncoderXPCService
+nexus            19537   0.0  0.2 38248068  17136   ??  S    10:09AM   0:06.68 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper (Plugin).app/Contents/MacOS/Google Chrome Helper (Plugin) --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-US --service-sandbox-type=none --message-loop-type-ui --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version
+nexus            19536   0.0  0.2 38228848  13752   ??  S    10:09AM   1:38.45 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --message-loop-type-ui --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=398
+nexus            18517   0.0  0.2 38233488  14532   ??  S     9:58AM   0:03.34 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --shared-files --field-trial-handle=1718379636,r,5387428104702725637,4881319117004764951,262144 --variations-seed-version --seatbelt-client=54
+nexus            18502   0.0  0.0 37880148   2940   ??  S     9:58AM   0:00.07 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/138.0.7204.184/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/nexus/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/nexus/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=138.0.7204.184 --handshake-fd=5
+nexus            18443   0.0  0.1  4372968   8192   ??  Ss    9:57AM   0:00.99 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+nexus            18421   0.0  0.2  4393380  14456   ??  S     9:57AM   4:04.39 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+nexus            18399   0.0  0.1  4388008  11316   ??  Ss    9:57AM   0:00.61 /Applications/CloudMounter.app/Contents/PlugIns/CMFinderSync.appex/Contents/MacOS/CMFinderSync
+nexus            18398   0.0  0.1  4387688   9316   ??  Ss    9:57AM   0:00.67 /Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon
+nexus            18397   0.0  0.1  4382616   9984   ??  Ss    9:57AM   0:00.32 /Applications/Shellcut.app/Contents/PlugIns/ShellcutFinderExtension.appex/Contents/MacOS/ShellcutFinderExtension
+nexus            18395   0.0  0.1  4885120  11292   ??  Ss    9:57AM   0:00.65 /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService
+nexus            18394   0.0  0.3  5147412  26120   ??  Ss    9:57AM   0:07.50 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+nexus            17853   0.0  0.0  4330124   1204   ??  Ss    9:51AM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+nexus            17845   0.0  0.0  4330124   1208   ??  Ss    9:51AM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+root             17844   0.0  0.0  4330124   1200   ??  Ss    9:51AM   0:00.02 /System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService
+nexus            17423   0.0  0.1  4361948   5600   ??  Ss    9:49AM   0:00.13 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/SandboxedServiceRunner.xpc/Contents/MacOS/SandboxedServiceRunner
+nexus            17166   0.0  0.0  4297480    864 s001  Ss+   9:48AM   0:00.23 /bin/zsh --login
+root             17158   0.0  0.1  4329816   4936 s000  Ss+   9:48AM   0:00.37 login -pfl nexus /bin/bash -c exec -la zsh /bin/zsh
+nexus            17157   0.0  0.1  4361948   5540   ??  Ss    9:48AM   0:00.19 /System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/SandboxedServiceRunner.xpc/Contents/MacOS/SandboxedServiceRunner
