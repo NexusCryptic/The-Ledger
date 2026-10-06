@@ -1,0 +1,49 @@
+openapi: 3.1.0
+info:
+  title: ADAM SYNAPSE Gateway
+  version: 1.0.0
+  description: Evidence-first control plane for telemetry, Gemini dispatch, enclave verification, and append-only ledger events.
+servers:
+  - url: https://gateway.example.invalid
+paths:
+  /v1/health:
+    get:
+      summary: Gateway health
+      responses:
+        '200': { description: Healthy }
+  /v1/telemetry:
+    get:
+      summary: Read non-secret runtime telemetry
+      responses:
+        '200': { description: Telemetry snapshot }
+  /v1/enclave/status:
+    get:
+      summary: Read enclave mount verification state
+      responses:
+        '200': { description: Enclave state }
+  /v1/enclave/mount-request:
+    post:
+      summary: Request a scoped mount capability
+      description: Never accepts or returns root credentials; SYNAPSE performs privileged work locally.
+      responses:
+        '202': { description: Request accepted }
+  /v1/enclave/verify:
+    post:
+      summary: Submit signed mount evidence for ADAM verification
+      responses:
+        '200': { description: Verification result }
+  /v1/gemini/dispatch:
+    post:
+      summary: Dispatch a bounded request through an authenticated Gemini adapter
+      responses:
+        '202': { description: Dispatch accepted }
+  /v1/ledger/head:
+    get:
+      summary: Read append-only ledger head
+      responses:
+        '200': { description: Current ledger head }
+  /v1/ledger/append:
+    post:
+      summary: Append an evidence event
+      responses:
+        '201': { description: Event appended }
