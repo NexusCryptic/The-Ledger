@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADAM Evidence Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "timestamp",
+    "source",
+    "operation",
+    "status",
+    "sha256"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    },
+    "operation": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "REQUESTED",
+        "ACCEPTED",
+        "EXECUTED_UNVERIFIED",
+        "VERIFIED",
+        "REJECTED"
+      ]
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "signature": {
+      "type": "string"
+    },
+    "details": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}
